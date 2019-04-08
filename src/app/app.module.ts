@@ -7,12 +7,13 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import { NavbarComponent } from './landingPage/navbar/navbar.component';
-import { FooterComponent } from './landingPage/footer/footer.component';
-import { AboutUsComponent } from './landingPage/about-us/about-us.component';
-import { LogInComponent } from './landingPage/log-in/log-in.component';
-import { SignUpComponent } from './landingPage/sign-up/sign-up.component';
-import { ContactComponent } from './landingPage/contact/contact.component';
+import { NavbarComponent } from './landing-page/navbar/navbar.component';
+import { FooterComponent } from './landing-page/footer/footer.component';
+import { AboutUsComponent } from './landing-page/about-us/about-us.component';
+import { LogInComponent } from './landing-page/log-in/log-in.component';
+import { SignUpComponent } from './landing-page/sign-up/sign-up.component';
+import { ContactComponent } from './landing-page/contact/contact.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 
@@ -24,7 +25,8 @@ import { ContactComponent } from './landingPage/contact/contact.component';
     AboutUsComponent,
     LogInComponent,
     SignUpComponent,
-    ContactComponent
+    ContactComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
